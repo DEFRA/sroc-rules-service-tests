@@ -49,13 +49,33 @@ Columns B to O in the `Inputs` tab are the data item inputs in each iterative re
 
 Columns P to Z define the expected responses from the Rules service, with the charge value itself shown in column P. The expected responses are calculated for all charge types in the `Calcs` tab. The `Calcs` tab references the `Chg_Factors` (or `BaselineChargeLookup` for all other regimes outside Water Resources) and `Reduction_Values` tabs in deriving the expected responses. These factors and reduction values must of course be in-line with those used in the rules service for the financial year being tested.
 
-### Future Financial years
+## Future Financial years
 
-In order to test future financial year rules sets in the projects current form, you would have to create a new Postman collection which includes the updated URL for the Rules set being tested. The tests would stay the same and can be copied from previous collections. And depending on whether the Rules set has changed for the new financial year, potentially create a new Batch file. 
+In order to test a new financial year rules set in the projects current form, you would first have to get a update the relevant master batch work sheet and produce a `.csv` file that is readable to the project runner. 
 
-> If the Rules set _**has not**_ changed then the latest Batch file can be used. 
+The worksheet is designed to be able to accept new data for a change in the rules. Any changes to the values in the Charge Factors or Baseline Charges tabs (depending on the regime) effects the calculated expected values in the Input tab. Please see instructions below to update files;
 
-> If the Rules set _**has**_ changed for a new financial year you would have to update the master Batch work sheet `Chg_Factors` & `Reduction_Values` values (or `BaselineChargeLookup` for all other regimes outside Water Resources) to include the latest values. These would then produce new values calculated and save as new Batch file (csv) ready for test. 
+### Installations, Waste & Water Quality
+
+To update a worksheet for the Installations, Waste or Water Quality regimes;
+
+- Open the relevant master batch work sheet located in the`/Batch Work Sheets` folder. 
+- Overwrite the `BaselineChargeLookup` values with the new set and save as a new file. Make sure its named appropriately.
+- Save the `Inputs` tab as a new `.csv` file. This is your new batch file ready for test.
+
+### Water Resources
+
+To update a worksheet for the Water Resources regime;
+
+- Open the latest master batch work sheet located in the`/Batch Work Sheets` folder. 
+- Overwrite the `Chg_Factors` & `Reduction_Values` with the new set and save as a new file. Make sure its named appropriately.
+- Save the `Inputs` tab as a new `.csv` file. This is your new batch file ready for test.
+
+> If the Ruleset is the same as the previous year then the previous batch can be used. Just make sure it now references this by naming it pre or post(FY). 
+
+### Collection File
+
+Once you have created new batch files based on the new financial years ruleset, you will now have to create a new Postman collection file which includes the updated endpoint for the rules set being tested. This endpoint appends the base URL with the regime and financial year identifiers E.g. `{{baseUrl}}/WRLS_Pre_SRoC_RuleApp/1.0/WRLS_Pre_SRoC_RuleSet_2022_23`. The collection also contains the actual tests that the runner will execute. You can copy and edit an existing collection file in Postman by importing or edit the raw file instead.
 
 ## Execution
 

@@ -1,0 +1,22 @@
+{
+	"id": "34g5432g8-da60-7521-9a67-4f5847e6852r",
+	"name": "example",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://example.co.uk",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "exampleUsername",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "examplePassword",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment"
+}

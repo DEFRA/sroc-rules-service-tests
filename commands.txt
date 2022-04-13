@@ -1,0 +1,51 @@
+--------------------------------------------------------------------
+TEST
+
+Installations:
+
+newman run installations/Installations_17-18.json -d installations/Batch_Pre_19-20.csv -e environments/nonprod.json && newman run installations/Installations_18-19.json -d installations/Batch_Pre_19-20.csv -e environments/nonprod.json && newman run installations/Installations_19-20.json -d installations/Batch_Post_19-20.csv -e environments/nonprod.json && newman run installations/Installations_20-21.json -d installations/Batch_Post_19-20.csv -e environments/nonprod.json && newman run installations/Installations_21-22.json -d installations/Batch_Post_19-20.csv -e environments/nonprod.json && newman run installations/Installations_22-23.json -d installations/Batch_Post_19-20.csv -e environments/nonprod.json
+
+Waste:
+
+newman run waste/waste_17-18.json -d waste/Batch_Pre_19-20.csv -e environments/nonprod.json && newman run waste/waste_18-19.json -d waste/Batch_Pre_19-20.csv -e environments/nonprod.json && newman run waste/waste_19-20.json -d waste/Batch_Post_19-20.csv -e environments/nonprod.json && newman run waste/waste_20-21.json -d waste/Batch_Post_19-20.csv -e environments/nonprod.json && newman run waste/waste_21-22.json -d waste/Batch_Post_19-20.csv -e environments/nonprod.json && newman run waste/waste_22-23.json -d waste/Batch_Post_19-20.csv -e environments/nonprod.json
+
+Water Quality:
+
+newman run water-quality/waterquality_17-18.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json && newman run water-quality/waterquality_18-19.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json && newman run water-quality/waterquality_19-20.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json && newman run water-quality/waterquality_20-21.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json && newman run water-quality/waterquality_21-22.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json && newman run water-quality/waterquality_22-23.json -d water-quality/Batch_All_FY.csv -e environments/nonprod.json
+
+Water Resources:
+
+--Pre-SRoC
+
+newman run water-resources/pre-sroc/wrls_pre-sroc_14-15.json -d water-resources/pre-sroc/Batch_14-15.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_15-16.json -d water-resources/pre-sroc/Batch_15-16.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_16-17.json -d water-resources/pre-sroc/Batch_16-17.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_17-18.json -d water-resources/pre-sroc/Batch_17-18.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_18-19.json -d water-resources/pre-sroc/Batch_18-19.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_19-20.json -d water-resources/pre-sroc/Batch_19-20.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_20-21.json -d water-resources/pre-sroc/Batch_20-21.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_21-22.json -d water-resources/pre-sroc/Batch_21-22.csv -e environments/nonprod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_22-23.json -d water-resources/pre-sroc/Batch_22-23.csv -e environments/nonprod.json
+
+--SRoC
+
+newman run water-resources/sroc/wrls_sroc_20-21.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_21-22.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_22-23.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json
+
+----------------------------------------------------------------------
+PROD
+
+Installations:
+
+newman run installations/Installations_17-18.json -d installations/Batch_Pre_19-20.csv -e environments/prod.json && newman run installations/Installations_18-19.json -d installations/Batch_Pre_19-20.csv -e environments/prod.json && newman run installations/Installations_19-20.json -d installations/Batch_Post_19-20.csv -e environments/prod.json && newman run installations/Installations_20-21.json -d installations/Batch_Post_19-20.csv -e environments/prod.json && newman run installations/Installations_21-22.json -d installations/Batch_Post_19-20.csv -e environments/prod.json && newman run installations/Installations_22-23.json -d installations/Batch_Post_19-20.csv -e environments/prod.json
+
+Waste:
+
+newman run waste/waste_17-18.json -d waste/Batch_Pre_19-20.csv -e environments/prod.json && newman run waste/waste_18-19.json -d waste/Batch_Pre_19-20.csv -e environments/prod.json && newman run waste/waste_19-20.json -d waste/Batch_Post_19-20.csv -e environments/prod.json && newman run waste/waste_20-21.json -d waste/Batch_Post_19-20.csv -e environments/prod.json && newman run waste/waste_21-22.json -d waste/Batch_Post_19-20.csv -e environments/prod.json && newman run waste/waste_22-23.json -d waste/Batch_Post_19-20.csv -e environments/prod.json
+
+Water Quality:
+
+newman run water-quality/waterquality_17-18.json -d water-quality/Batch_All_FY.csv -e environments/prod.json && newman run water-quality/waterquality_18-19.json -d water-quality/Batch_All_FY.csv -e environments/prod.json && newman run water-quality/waterquality_19-20.json -d water-quality/Batch_All_FY.csv -e environments/prod.json && newman run water-quality/waterquality_20-21.json -d water-quality/Batch_All_FY.csv -e environments/prod.json && newman run water-quality/waterquality_21-22.json -d water-quality/Batch_All_FY.csv -e environments/prod.json && newman run water-quality/waterquality_22-23.json -d water-quality/Batch_All_FY.csv -e environments/prod.json
+
+Water Resources:
+
+--Pre-SRoC
+
+newman run water-resources/pre-sroc/wrls_pre-sroc_14-15.json -d water-resources/pre-sroc/Batch_14-15.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_15-16.json -d water-resources/pre-sroc/Batch_15-16.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_16-17.json -d water-resources/pre-sroc/Batch_16-17.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_17-18.json -d water-resources/pre-sroc/Batch_17-18.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_18-19.json -d water-resources/pre-sroc/Batch_18-19.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_19-20.json -d water-resources/pre-sroc/Batch_19-20.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_20-21.json -d water-resources/pre-sroc/Batch_20-21.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_21-22.json -d water-resources/pre-sroc/Batch_21-22.csv -e environments/prod.json && newman run water-resources/pre-sroc/wrls_pre-sroc_22-23.json -d water-resources/pre-sroc/Batch_22-23.csv -e environments/prod.json
+
+--SRoC
+
+newman run water-resources/sroc/wrls_sroc_20-21.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/prod.json
+
+-----------------------------------------------------------------------

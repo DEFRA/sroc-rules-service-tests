@@ -87,7 +87,7 @@ For example to run the Installations 20-21 Financial Year Ruleset batch test in 
 newman run installations/Installations_20-21.json -d installations/Batch_Post_19-20.csv -e environments/nonprod.json
 ```
 
-<img src="docs/cli.png" width="800" alt="Screenshot of test runner" />
+<img src="docs/cli.png" width="600" alt="Screenshot of test runner" />
 
 See [commands.json](/commands.json) for a list of commands for each regime. This is particularly handy to run multiple or all rules sets consecutively. 
 

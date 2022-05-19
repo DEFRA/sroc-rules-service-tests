@@ -21,7 +21,7 @@ newman run water-resources/pre-sroc/wrls_pre-sroc_14-15.json -d water-resources/
 
 --SRoC
 
-newman run water-resources/sroc/wrls_sroc_20-21.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_21-22.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_22-23.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json
+newman run water-resources/sroc/wrls_sroc_20-21.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_21-22.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/nonprod.json && newman run water-resources/sroc/wrls_sroc_22-23.json -d water-resources/sroc/Batch_Post_22-23.csv -e environments/nonprod.json
 
 ----------------------------------------------------------------------
 PROD
@@ -46,6 +46,6 @@ newman run water-resources/pre-sroc/wrls_pre-sroc_14-15.json -d water-resources/
 
 --SRoC
 
-newman run water-resources/sroc/wrls_sroc_20-21.json -d water-resources/sroc/Batch_Post_20-21.csv -e environments/prod.json
+newman run water-resources/sroc/wrls_sroc_22-23.json -d water-resources/sroc/Batch_Post_22-23.csv -e environments/prod.json
 
 -----------------------------------------------------------------------

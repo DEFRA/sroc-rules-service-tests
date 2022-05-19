@@ -1,0 +1,379 @@
+﻿iteration,secondPartCharge,compensationCharge,chargeCategory,waterUndertaker,regionalChargingArea,supportedSourceChargeFlag,supportedSourceName,abatementAdjustment,adjustmentFactor,s127Agreement,s130Agreement,aggregateProportion,waterCompanyChargeFlag,loss,billableDays,abstractableDays,winterOnly,actualVolume,authorisedVolume,expChargeValue,expAbatementAdjustment,expS127Agreement,expS130Agreement,expBaselineCharge,expSupportedSourceCharge,expWaterCompanyCharge,expCompensationChargePercentage,expAggregateAdjustment,expAdjustmentFactor,expWinterOnlyAdjustment
+1,false,false,4.1.1,true,,false,Not Applicable,0.5,0.7,false,false,1,true,Medium,200,212,true,0,10785,869.55,0.5,,,97,0,5170,,,0.7,Winter Only Discount x 0.5
+2,false,false,4.1.2,false,,false,Not Applicable,1,0.9,false,false,0.5,true,Low,210,230,false,0,6.4827,45.2,,,,102,0,8,,0.5,0.9,
+3,false,true,4.1.3,false,Midlands,false,Not Applicable,1,1,false,false,1,true,Medium,0,143,false,0,2722.277,0,,,,110,0,2498,0%,,,
+4,false,false,4.1.4,true,Wales,false,Not Applicable,1,0.99,false,false,0.75,false,High,0,47,true,0,3.409,0,,,,513,0,0,,0.75,0.99,Winter Only Discount x 0.5
+5,false,true,4.1.5,false,South West (incl Wessex),false,Not Applicable,0.9,1,false,true,0.5,false,Medium,143,157,true,0,3.805,0,0.9,,CRT Discount x 0.5,538,0,0,0%,0.5,,Winter Only Discount x 0.5
+6,true,false,4.1.6,false,,true,Great East Anglian Surface Water,1,0.11,true,false,0.4,false,Low,0,0,true,20.458,1001.22,0.17,,Two-part Tariff x 0.5,,588,157,0,,0.4,0.11,Winter Only Discount x 0.5
+7,false,false,4.1.7,false,Devon and Cornwall (South West),false,Not Applicable,1,1,false,false,0.9,false,High,52,62,false,0,25.6,877.12,,,,1162,0,0,,0.9,,
+8,false,false,4.1.8,true,North West,false,Not Applicable,0.1,0.89,true,true,1,true,Low,357,366,true,0,1004,13.33,0.1,Two-part Tariff x 0.5,CRT Discount x 0.5,1220,0,8,,,0.89,Winter Only Discount x 0.5
+9,false,false,4.1.9,false,,false,Not Applicable,1,1,true,true,1,true,Medium,259,273,false,0,100050,12626.01,,Two-part Tariff x 0.5,CRT Discount x 0.5,1321,0,51913,,,,
+10,false,false,4.1.10,false,Thames,false,Medway - Allington,1,0.04,true,false,1,false,High,0,65,false,1002,1008,0,,Two-part Tariff x 0.5,,1783,0,0,,,0.04,
+11,false,false,4.1.11,true,,false,Not Applicable,1,1,true,true,1,false,Medium,216,221,true,0,100,228.58,,Two-part Tariff x 0.5,CRT Discount x 0.5,1871,0,0,,,,Winter Only Discount x 0.5
+12,false,false,4.1.12,false,Wye,false,Not Applicable,1,1,true,true,0.5,false,Low,17,20,false,0,3637,215.37,,Two-part Tariff x 0.5,CRT Discount x 0.5,2027,0,0,,0.5,,
+13,false,false,4.1.13,true,Dee,false,Not Applicable,1,0,false,true,1,true,High,356,366,true,0,99999.9,0,,,CRT Discount x 0.5,2889,0,51913,,,0,Winter Only Discount x 0.5
+14,true,false,4.1.14,false,,true,Ouse - Hermitage,1,1,true,true,1,false,High,0,0,false,100,1002,1142.81,,Two-part Tariff x 0.5,CRT Discount x 0.5,3032,42772,0,,,,
+15,false,true,4.1.15,false,Midlands,false,Not Applicable,0.89,1,false,true,1,false,Medium,171,188,false,0,1003.33,0,0.89,,CRT Discount x 0.5,3283,0,0,0%,,,
+16,false,false,4.1.16,false,Northumbria,false,Rhee Groundwater,1,1,false,true,1,true,Low,18,37,false,0,0.123,1280.92,,,CRT Discount x 0.5,5258,0,8,,,,
+17,false,false,4.1.17,true,North West,false,Severn,0.9,0.5,false,true,0.75,false,High,331,353,true,0,1007,436.64,0.9,,CRT Discount x 0.5,5519,0,0,,0.75,0.5,Winter Only Discount x 0.5
+18,true,false,4.1.18,true,Southern,true,Thames,1,1,true,false,0.5,true,Low,200,202,true,0,8180,0,,Two-part Tariff x 0.5,,5976,229,41,,0.5,,Winter Only Discount x 0.5
+19,false,true,4.1.19,false,South West (incl Wessex),true,Thet and Little Ouse Surface Water,0.99,1,false,false,1,false,Medium,4,16,false,0,32100.1,0,0.99,,,9938,0,0,0%,,,
+20,false,false,4.1.20,false,,false,Waveney Groundwater,1,0.5,false,true,1,false,Medium,0,278,false,0,32100.001,0,,,CRT Discount x 0.5,10431,0,0,,,0.5,
+21,false,false,4.1.21,true,North and South Wessex,false,Waveney Surface Water,0.11,0.01,true,false,1,true,High,224,238,true,0,1008,3.3,0.11,Two-part Tariff x 0.5,,11295,0,1456,,,0.01,Winter Only Discount x 0.5
+22,true,false,4.1.22,false,,true,Welland - Tinwell Sluices,1,1,true,true,1,true,Medium,0,0,false,0.01,32100,0.01,,Two-part Tariff x 0.5,CRT Discount x 0.5,18437,86178,20338,,,,
+23,false,true,4.1.23,false,Yorkshire,false,Not Applicable,0.89,1,false,false,1,false,Low,308,314,false,0,3637,0,0.89,,,19351,0,0,0%,,,
+24,false,false,4.1.24,false,,false,Not Applicable,1,0.03,true,false,1,true,High,265,274,false,0,0.001,304.12,,Two-part Tariff x 0.5,,20955,0,8,,,0.03,
+25,false,false,4.1.25,true,Wye,false,Not Applicable,0.04,0.89,true,false,0.7,false,High,362,383,true,0,1001,186.2,0.04,Two-part Tariff x 0.5,,31621,0,0,,0.7,0.89,Winter Only Discount x 0.5
+26,true,false,4.1.26,false,Wales,false,Dee,1,1,true,true,0.8,false,High,0,0,true,0.775,2,1286.07,,Two-part Tariff x 0.5,CRT Discount x 0.5,33189,0,0,,0.8,,Winter Only Discount x 0.5
+27,false,true,4.1.27,false,Yorkshire,false,Not Applicable,1,1,false,true,1,false,High,150,174,false,0,3333333.999,0,,,CRT Discount x 0.5,35940,0,0,0%,,,
+28,false,false,4.1.28,false,Anglian,false,Glen Groundwater,0,1,true,false,1,false,Medium,9,18,false,0,100,0,0,Two-part Tariff x 0.5,,65451,0,0,,,,
+29,false,false,4.1.29,true,Midlands,false,Great East Anglian Groundwater,1,0.99,false,false,0.5,true,Low,300,319,true,0,1.06,15991.68,,,,68697,0,8,,0.5,0.99,Winter Only Discount x 0.5
+30,true,false,4.1.30,false,,true,Great East Anglian Surface Water,1,1,true,false,1,false,Low,0,0,true,2,8180,4.6,,Two-part Tariff x 0.5,,74390,829,0,,,,Winter Only Discount x 0.5
+31,false,true,4.1.31,true,South West (incl Wessex),false,Not Applicable,1,1,false,true,1,false,Medium,147,172,true,0,32100,0,,,CRT Discount x 0.5,139580,0,0,0%,,,Winter Only Discount x 0.5
+32,false,false,4.1.32,false,Northumbria,false,Not Applicable,0.5,1,false,true,1,true,Medium,334,356,false,0,0.01,34364.24,0.5,,CRT Discount x 0.5,146503,0,8,,,,
+33,false,false,4.1.33,true,,false,Not Applicable,1,0.9,false,false,1,false,High,262,286,true,0,1001.999,65388.33,,,,158618,0,0,,,0.9,Winter Only Discount x 0.5
+34,true,false,4.1.34,false,,true,Medway - Allington,1,0.5,true,true,1,false,Medium,0,0,false,0.009,1003.33,0.29,,Two-part Tariff x 0.5,CRT Discount x 0.5,257486,950,0,,,0.5,
+35,false,true,4.1.35,false,North and South Wessex,false,Not Applicable,0.5,1,false,true,1,false,Low,259,279,false,0,1005,0,0.5,,CRT Discount x 0.5,270257,0,0,0%,,,
+36,false,false,4.1.36,false,Thames,false,Not Applicable,0.01,1,false,false,1,false,Low,188,193,false,0,2.654,2850.69,0.01,,,292651,0,0,,,,
+37,false,false,4.1.37,true,Southern,false,Not Applicable,1,0.96,false,false,1,true,Low,199,209,true,0,0.999,300381.15,,,,657233,0,8,,,0.96,Winter Only Discount x 0.5
+38,true,false,4.1.38,false,,false,Not Applicable,1,0.5,true,false,1,true,High,0,0,true,1,32100.1,2.89,,Two-part Tariff x 0.5,,689830,0,51913,,,0.5,Winter Only Discount x 0.5
+39,false,true,4.1.39,true,Dee,true,Ouse - Offord,0.03,1,false,false,1,true,High,65,68,true,0,3637,0,0.03,,,746992,0,5170,0%,,,Winter Only Discount x 0.5
+40,false,false,4.1.40,false,Anglian,false,Nene - Water Newton,0.89,1,true,false,1,true,High,12,16,false,0,0.001,1123180.89,0.89,Two-part Tariff x 0.5,,3365328,0,8,,,,
+41,false,false,4.1.41,true,Midlands,false,Severn,1,1,false,false,1,false,Medium,311,321,true,0,1,1711100.2,,,,3532239,0,0,,,,Winter Only Discount x 0.5
+42,false,true,4.1.42,false,Northumbria,false,Not Applicable,1,0.5,false,true,1,false,Medium,303,314,false,0,8180,0,,,CRT Discount x 0.5,3824834,0,0,0%,,0.5,
+43,true,false,4.2.1,false,,true,Thet and Little Ouse Surface Water,1,1,true,true,1,true,Low,0,0,false,0,999999.9,0,,Two-part Tariff x 0.5,CRT Discount x 0.5,97,51886,5170,,,,
+44,false,false,4.2.2,false,Southern,false,Not Applicable,0.99,1,false,false,0.5,false,Low,366,366,false,0,0.01,50.49,0.99,,,102,0,0,,0.5,,
+45,false,false,4.2.3,true,,false,Waveney Surface Water,1,0.5,true,true,1,true,Low,68,83,true,0,101.99914,6.04,,Two-part Tariff x 0.5,CRT Discount x 0.5,110,0,8,,,0.5,Winter Only Discount x 0.5
+46,false,true,4.2.4,false,Devon and Cornwall (South West),false,Not Applicable,1,0.01,false,true,1,false,High,270,280,false,0,1002,0,,,CRT Discount x 0.5,513,0,0,0%,,0.01,
+47,true,false,4.2.5,false,,true,Witham and Ancholme,1,1,true,false,1,false,High,0,0,false,0,10.77,0,,Two-part Tariff x 0.5,,538,543,0,,,,
+48,false,false,4.2.6,false,Thames,false,Wye,0.9,1,true,false,1,true,High,151,166,false,0,1007,836.69,0.9,Two-part Tariff x 0.5,,588,0,1456,,,,
+49,false,false,4.2.7,true,Yorkshire,false,Candover,0.5,0.03,false,false,1,false,High,212,220,true,0,0.999,8.4,0.5,,,1162,0,0,,,0.03,Winter Only Discount x 0.5
+50,false,true,4.2.8,false,Dee,false,Ouse - Offord,1,0.89,false,true,1,false,Medium,122,135,false,0,8180,0,,,CRT Discount x 0.5,1220,0,0,0%,,0.89,
+51,true,false,4.2.9,false,,false,Not Applicable,1,1,true,false,1,false,Low,0,0,true,10050,32100.1,103.4,,Two-part Tariff x 0.5,,1321,0,0,,,,Winter Only Discount x 0.5
+52,false,false,4.2.10,false,Wales,false,Not Applicable,0.96,1,false,false,1,false,Low,356,376,false,0,0.0001,1620.63,0.96,,,1783,0,0,,,,
+53,false,false,4.2.11,true,Yorkshire,false,Not Applicable,0.5,1,false,false,1,true,Medium,153,153,true,0,32100.0012,5552.25,0.5,,,1871,0,20338,,,,Winter Only Discount x 0.5
+54,false,true,4.2.12,false,Anglian,false,Not Applicable,1,0.99,false,false,1,false,Medium,270,295,false,0,1008,0,,,,2027,0,0,0%,,0.99,
+55,true,false,4.2.13,true,Devon and Cornwall (South West),false,Not Applicable,1,1,true,false,1,false,High,96,128,true,100,1.001,72152.85,,Two-part Tariff x 0.5,,2889,0,0,,,,Winter Only Discount x 0.5
+56,false,false,4.2.14,false,Wales,false,Lodes Granta Groundwater,1,1,false,false,1,true,Medium,68,80,false,0,321,2771,,,,3032,0,228,,,,
+57,false,false,4.2.15,true,,false,Lower Yorkshire Derwent,1,1,false,false,1,false,Low,329,354,true,0,2.212,1525.57,,,,3283,0,0,,,,Winter Only Discount x 0.5
+58,false,true,4.2.16,true,Northumbria,false,Not Applicable,0.5,0.9,false,true,1,true,Low,324,340,true,0,8180,0,0.5,,CRT Discount x 0.5,5258,0,41,0%,,0.9,Winter Only Discount x 0.5
+59,true,false,4.2.17,true,Dee,false,Not Applicable,1,0.5,true,false,1,false,Low,0,0,false,25,100.2,344.25,,Two-part Tariff x 0.5,,5519,0,0,,,0.5,
+60,false,false,4.2.18,false,North West,false,Not Applicable,1,1,true,false,1,false,High,18,33,false,0,14.3185,1629.82,,Two-part Tariff x 0.5,,5976,0,0,,,,
+61,false,false,4.2.19,true,,false,Not Applicable,1,1,false,false,1,true,High,342,356,true,0,99.092,4841.32,,,,9938,0,141,,,,Winter Only Discount x 0.5
+62,false,true,4.2.20,false,Thames,false,Not Applicable,0.89,1,false,true,1,false,High,92,92,false,0,0.999,0,0.89,,CRT Discount x 0.5,10431,0,0,0%,,,
+63,false,false,4.2.21,false,Southern,false,Ouse - Offord,1,0.5,false,false,1,true,Medium,50,52,false,0,0.009,5434.13,,,,11295,0,8,,,0.5,
+64,true,false,4.2.22,true,Wye,false,Not Applicable,1,1,true,false,1,true,Medium,0,0,true,0,100.2,0,,Two-part Tariff x 0.5,,18437,0,92,,,,Winter Only Discount x 0.5
+65,false,false,4.2.23,true,Dee,false,Not Applicable,1,1,false,false,1,false,Low,228,251,true,0,32.991,8788.9,,,,19351,0,0,,,,Winter Only Discount x 0.5
+66,false,true,4.2.24,false,Anglian,true,Thames,0.5,0.5,false,true,1,true,Low,140,155,false,0,99.092,0,0.5,,CRT Discount x 0.5,20955,0,8,0%,,0.5,
+67,false,false,4.2.25,false,Midlands,false,Not Applicable,1,0.01,true,false,1,false,Low,75,91,false,0,0.00001,130.31,,Two-part Tariff x 0.5,,31621,0,0,,,0.01,
+68,true,false,4.2.26,true,Wales,false,Not Applicable,1,1,true,false,1,true,Medium,0,0,false,0.001,0.001,16598.5,,Two-part Tariff x 0.5,,33189,0,8,,,,
+69,false,false,4.2.27,true,North West,false,Waveney Surface Water,0.88,1,false,false,1,true,Low,149,164,true,0,1.1,14370.43,0.88,,,35940,0,8,,,,Winter Only Discount x 0.5
+70,false,true,4.2.28,false,Southern,false,Not Applicable,1,0.03,false,true,0.25,false,Medium,221,241,false,0,404.404,0,,,CRT Discount x 0.5,65451,0,0,0%,0.25,0.03,
+71,false,false,4.2.29,false,,false,Witham and Ancholme,1,0.89,false,false,1,true,High,168,174,false,0,1,59038.92,,,,68697,0,8,,,0.89,
+72,false,false,4.2.30,true,Devon and Cornwall (South West),false,Wye,1,1,false,true,1,false,Medium,31,51,true,0,0.999,11304.36,,,CRT Discount x 0.5,74390,0,0,,,,Winter Only Discount x 0.5
+73,true,false,4.2.31,false,,true,Candover,1,1,true,false,1,false,Low,0,0,false,0.001,5081,0.01,,Two-part Tariff x 0.5,,139580,184,0,,,,
+74,false,true,4.2.32,false,Thames,false,Not Applicable,1,1,false,true,1,true,High,54,57,false,0,8134,0,,,CRT Discount x 0.5,146503,0,11025,0%,,,
+75,false,false,4.2.33,false,Yorkshire,false,Earl Soham - Deben,1,0.99,false,false,0.5,false,Low,291,308,false,0,852,74182.24,,,,158618,0,0,,0.5,0.99,
+76,false,false,4.2.34,true,Dee,true,Glen Groundwater,1,1,false,false,1,true,Medium,249,264,true,0,9402,141002.85,,,,257486,36338,5170,,,,Winter Only Discount x 0.5
+77,false,false,4.2.35,false,Wye,true,Great East Anglian Groundwater,1,1,false,false,1,true,High,134,146,false,0,58,250017.38,,,,270257,2058,92,,,,
+78,false,true,4.2.36,false,Wales,false,Not Applicable,0.03,1,false,true,1,false,Medium,256,281,false,0,2860,0,0.03,,CRT Discount x 0.5,292651,0,0,0%,,,
+79,true,false,4.2.37,false,,false,Not Applicable,1,0.9,true,true,0.01,false,Low,0,0,false,3637,3302,1628.8,,Two-part Tariff x 0.5,CRT Discount x 0.5,657233,0,0,,0.01,0.9,
+80,false,false,4.2.38,true,Anglian,true,Glen Groundwater,1,0.5,false,false,0.99,false,High,300,302,true,0,1150,172118.88,,,,689830,10236,0,,0.99,0.5,Winter Only Discount x 0.5
+81,false,false,4.2.39,false,Midlands,true,Glen Groundwater,1,1,false,false,1,false,High,65,90,false,0,2748,565738.33,,,,746992,36338,0,,,,
+82,false,true,4.2.40,false,Wales,true,Lodes Granta Groundwater,1,1,false,true,1,false,Medium,56,66,false,0,9012,0,,,CRT Discount x 0.5,3365328,0,0,0%,,,
+83,true,false,4.2.41,false,,true,Nene - Northampton,1,1,true,true,1,false,Low,0,0,true,1.1,5336,97.88,,Two-part Tariff x 0.5,CRT Discount x 0.5,3532239,266153,0,,,,Winter Only Discount x 0.5
+84,false,false,4.2.42,true,Northumbria,true,Nene - Water Newton,0.01,0.5,true,true,1,true,High,1,18,true,0,747,135.52,0.01,Two-part Tariff x 0.5,CRT Discount x 0.5,3824834,77284,785,,,0.5,Winter Only Discount x 0.5
+85,false,false,4.3.1,false,Devon and Cornwall (South West),true,Ouse - Eaton Socon,1,1,true,true,1,true,Low,8,10,false,0,0.999,58.2,,Two-part Tariff x 0.5,CRT Discount x 0.5,97,186,8,,,,
+86,false,true,4.3.2,true,North West,false,Not Applicable,0.88,1,false,false,1,true,Medium,30,48,true,0,8180,0,0.88,,,102,0,5170,0%,,,Winter Only Discount x 0.5
+87,true,false,4.3.3,false,,true,Ouse - Offord,1,0.5,true,true,1,false,Medium,0,0,false,100.2,100.2,806.88,,Two-part Tariff x 0.5,CRT Discount x 0.5,110,6345,0,,,0.5,
+88,false,false,4.3.4,true,Thames,true,Rhee Groundwater,0.9,0.01,true,true,1,false,High,243,249,true,0,14.3185,0.82,0.9,Two-part Tariff x 0.5,CRT Discount x 0.5,513,237,0,,,0.01,Winter Only Discount x 0.5
+89,false,true,4.3.5,false,Southern,false,Not Applicable,1,1,false,false,1,false,Medium,54,55,false,0,5790,0,,,,538,0,0,0%,,,
+90,false,false,4.3.6,false,Wye,true,Thames,1,1,true,true,1,false,Low,37,40,false,0,4396,145.92,,Two-part Tariff x 0.5,CRT Discount x 0.5,588,43,0,,,,
+91,true,false,4.3.7,false,,false,Not Applicable,1,0.03,true,true,1,true,High,0,0,false,2,8979,0.02,,Two-part Tariff x 0.5,CRT Discount x 0.5,1162,0,11025,,,0.03,
+92,false,false,4.3.8,true,,true,Glen Groundwater,0.5,0.89,false,true,1,true,High,214,221,true,0,4999,4602.93,0.5,,CRT Discount x 0.5,1220,36338,5170,,,0.89,Winter Only Discount x 0.5
+93,false,false,4.3.9,false,Midlands,true,Glen Groundwater,1,1,false,true,1,true,High,52,53,false,0,1306,6383.74,,,CRT Discount x 0.5,1321,10236,1456,,,,
+94,false,false,4.3.10,true,Northumbria,true,Glen Groundwater,1,1,false,true,1,false,High,253,276,true,0,1407,4431.85,,,CRT Discount x 0.5,1783,17556,0,,,,Winter Only Discount x 0.5
+95,true,false,4.3.11,false,,true,Witham and Ancholme,1,1,true,false,0.75,false,Medium,0,0,false,0.009,4163,0.3,,Two-part Tariff x 0.5,,1871,365007,0,,0.75,,
+96,false,false,4.3.12,false,Southern,true,Wye,0.88,0.99,false,true,0.5,false,Low,248,251,false,0,2872,436.2,0.88,,CRT Discount x 0.5,2027,0,0,,0.5,0.99,
+97,false,false,4.3.13,true,South West (incl Wessex),true,Candover,1,1,true,false,1,true,Low,243,258,true,0,321,690.38,,Two-part Tariff x 0.5,,2889,35,8,,,,Winter Only Discount x 0.5
+98,false,false,4.3.14,false,Devon and Cornwall (South West),true,Dee,0.2,1,true,false,1,true,Medium,68,93,false,0,8180,4246.49,0.2,Two-part Tariff x 0.5,,3032,49875,5170,,,,
+99,true,false,4.3.15,false,,true,Earl Soham - Deben,1,1,true,false,1,false,Medium,0,0,false,1,3.1,546.45,,Two-part Tariff x 0.5,,3283,105,0,,,,
+100,false,false,4.3.16,true,Thames,true,Glen Groundwater,1,0.9,true,false,1,false,High,342,365,true,0,14.3185,1119.89,,Two-part Tariff x 0.5,,5258,54,0,,,0.9,Winter Only Discount x 0.5
+101,false,false,4.3.17,false,Yorkshire,true,Great East Anglian Groundwater,0.4,0.5,true,false,1,false,Medium,72,86,false,0,5.4,476.46,0.4,Two-part Tariff x 0.5,,5519,172,0,,,0.5,
+102,false,false,4.3.18,true,,true,Great East Anglian Surface Water,1,1,true,false,1,true,Low,92,114,true,0,75,1238.97,,Two-part Tariff x 0.5,,5976,157,8,,,,Winter Only Discount x 0.5
+103,true,false,4.3.19,false,,true,Kielder,0.75,1,true,false,1,false,Low,0,0,false,0.999,202.202,21.33,0.75,Two-part Tariff x 0.5,,9938,1575,0,,,,
+104,false,false,4.3.20,false,Wales,true,Lodes Granta Groundwater,1,1,true,false,1,true,Low,21,38,false,0,0.001,2915.41,,Two-part Tariff x 0.5,,10431,112,8,,,,
+105,false,true,4.3.21,false,Yorkshire,false,Not Applicable,1,0.5,false,true,1,false,High,196,221,false,0,3105,0,,,CRT Discount x 0.5,11295,0,0,0%,,0.5,
+106,false,true,4.3.22,false,Anglian,false,Not Applicable,1,1,false,true,1,false,High,323,336,true,0,2.212,0,,,CRT Discount x 0.5,18437,0,0,0%,,,Winter Only Discount x 0.5
+107,false,false,4.3.23,true,Midlands,true,Glen Groundwater,0.5,1,false,false,1,false,High,149,164,true,0,0.999,4407.54,0.5,,,19351,54,0,,,,Winter Only Discount x 0.5
+108,false,false,4.3.24,false,Wales,true,Glen Groundwater,1,0.5,false,false,1,false,Medium,114,119,false,0,0.009,10063.13,,,,20955,54,0,,,0.5,
+109,false,true,4.3.25,false,South West (incl Wessex),true,Ouse - Eaton Socon,0.5,0.01,false,false,1,false,Medium,243,247,true,0,100.2,0,0.5,,,31621,0,0,0%,,0.01,Winter Only Discount x 0.5
+110,false,true,4.3.26,false,Northumbria,false,Not Applicable,1,1,false,true,1,false,Low,254,275,true,0,32.991,0,,,CRT Discount x 0.5,33189,0,0,0%,,,Winter Only Discount x 0.5
+111,false,false,4.3.27,true,Devon and Cornwall (South West),true,Ouse - Offord,1,1,false,false,1,true,Low,0,355,true,0,99.092,0,,,,35940,531,8,,,,Winter Only Discount x 0.5
+112,true,false,4.3.28,false,,true,Rhee Groundwater,1,0.03,true,false,1,false,Low,0,0,false,75,0.1,738990,,Two-part Tariff x 0.5,,65451,237,0,,,0.03,
+113,false,true,4.3.29,false,North and South Wessex,true,Kielder,0.5,0.89,false,true,1,false,High,268,270,true,0,0.001,0,0.5,,CRT Discount x 0.5,68697,0,0,0%,,0.89,Winter Only Discount x 0.5
+114,true,false,4.3.30,false,,true,Thames,1,1,true,false,1,false,High,0,0,true,0,1.1,0,,Two-part Tariff x 0.5,,74390,43,0,,,,Winter Only Discount x 0.5
+115,true,false,4.3.31,false,,true,Thet and Little Ouse Surface Water,1,1,true,false,1,true,High,0,0,true,0.001,404.404,0.11,,Two-part Tariff x 0.5,,139580,30027,785,,,,Winter Only Discount x 0.5
+116,true,false,4.3.32,false,,true,Waveney Groundwater,1,1,true,false,1,false,High,0,0,true,0.001,1,36.64,,Two-part Tariff x 0.5,,146503,74,0,,,,Winter Only Discount x 0.5
+117,true,false,4.3.33,false,,true,Waveney Surface Water,1,0.99,true,true,1,false,Medium,250,251,true,3637,0.999,71494941.86,,Two-part Tariff x 0.5,CRT Discount x 0.5,158618,73,0,,,0.99,Winter Only Discount x 0.5
+118,true,false,4.3.34,false,,true,Welland - Tinwell Sluices,1,1,true,true,1,true,Low,0,0,false,1.1,825,86.01,,Two-part Tariff x 0.5,CRT Discount x 0.5,257486,534,8,,,,
+119,true,false,4.3.35,false,,true,Witham and Ancholme,1,1,true,false,1,false,Low,0,0,false,404.404,5116,10794.49,,Two-part Tariff x 0.5,,270257,2859,0,,,,
+120,true,false,4.3.36,false,,true,Wye,1,1,true,false,1,false,Medium,0,0,false,2,5482,53.38,,Two-part Tariff x 0.5,,292651,0,0,,,,
+121,true,false,4.3.37,false,,false,Not Applicable,1,0.9,true,false,1,false,Medium,0,0,false,0.009,99.092,26.86,,Two-part Tariff x 0.5,,657233,0,0,,,0.9,
+122,true,false,4.3.38,false,,true,Dee,1,0.5,true,false,1,false,High,0,0,false,1,0.9,191640,,Two-part Tariff x 0.5,,689830,74,0,,,0.5,
+123,true,false,4.3.39,false,,true,Earl Soham - Deben,1,0.5,true,false,1,false,Medium,0,0,false,20,200,18722.8,,Two-part Tariff x 0.5,,746992,1920,0,,,0.5,
+124,true,false,4.3.40,false,,true,Glen Groundwater,1,1,true,false,1,true,Low,0,0,false,2,200,16826.95,,Two-part Tariff x 0.5,,3365328,54,8,,,,
+125,false,true,4.3.41,false,North and South Wessex,false,Not Applicable,1,1,false,false,1,false,Low,315,329,true,0,404.404,0,,,,3532239,0,0,0%,,,Winter Only Discount x 0.5
+126,false,true,4.3.42,false,Thames,false,Not Applicable,1,1,false,false,1,false,Low,0,30,true,0,1,0,,,,3824834,0,0,0%,,,Winter Only Discount x 0.5
+127,false,true,4.4.1,false,Yorkshire,false,Not Applicable,1,0.5,false,true,1,false,High,319,337,false,0,0.999,0,,,CRT Discount x 0.5,97,0,0,0%,,0.5,
+128,false,true,4.4.2,false,Dee,false,Not Applicable,0.5,1,false,true,1,true,High,252,275,false,0,4545,0,0.5,,CRT Discount x 0.5,102,0,5170,0%,,,
+129,false,true,4.4.3,false,Wye,true,Candover,1,1,false,true,1,false,High,1,23,false,0,3186,0,,,CRT Discount x 0.5,110,0,0,0%,,,
+130,false,true,4.4.4,true,Wales,false,Not Applicable,0.5,0.5,false,false,1,true,Medium,356,356,true,0,4618,0,0.5,,,115,0,5170,0%,,0.5,Winter Only Discount x 0.5
+131,true,false,4.4.5,true,Yorkshire,true,Nene - Northampton,0.5,0.01,true,false,0.8,true,Medium,0,0,true,0,9055,0,0.5,Two-part Tariff x 0.5,,120,393229,5170,,0.8,0.01,Winter Only Discount x 0.5
+132,true,false,4.4.6,false,,true,Nene - Water Newton,1,1,true,false,1,false,Low,0,0,false,0,5922,0,,Two-part Tariff x 0.5,,128,6282,0,,,,
+133,true,false,4.4.7,false,,true,Ouse - Eaton Socon,1,1,true,false,1,false,Low,0,0,false,0,1076,0,,Two-part Tariff x 0.5,,513,186,0,,,,
+134,true,false,4.4.8,false,,true,Ouse - Hermitage,1,0.03,true,false,1,false,Low,0,0,false,0,5067,0,,Two-part Tariff x 0.5,,538,2897,0,,,0.03,
+135,true,false,4.4.9,false,,false,Not Applicable,1,0.89,true,false,1,false,Medium,0,0,false,0,3476,0,,Two-part Tariff x 0.5,,588,0,0,,,0.89,
+136,true,false,4.4.10,false,,true,Rhee Groundwater,1,1,true,false,1,false,Low,0,0,false,0,0.999,0,,Two-part Tariff x 0.5,,609,237,0,,,,
+137,true,false,4.4.11,false,,true,Severn,1,1,true,false,1,false,Medium,0,0,false,0,2,0,,Two-part Tariff x 0.5,,634,163,0,,,,
+138,true,false,4.4.12,true,North West,true,Thames,0.1,1,true,false,1,true,High,0,0,true,0,0.999,0,0.1,Two-part Tariff x 0.5,,684,43,8,,,,Winter Only Discount x 0.5
+139,true,false,4.4.13,true,North and South Wessex,true,Thet and Little Ouse Surface Water,1,0.99,true,false,1,true,Medium,0,0,true,4915,75,79945.92,,Two-part Tariff x 0.5,,1162,3726,41,,,0.99,Winter Only Discount x 0.5
+140,true,false,4.4.14,true,Thames,true,Waveney Groundwater,1,1,true,false,1,true,Low,0,0,true,8554,5870,600.75,,Two-part Tariff x 0.5,,1220,388,41,,,,Winter Only Discount x 0.5
+141,false,true,4.4.15,true,Southern,false,Ouse - Offord,1,1,false,true,1,true,High,300,307,true,0,8178,0,,,CRT Discount x 0.5,1321,0,11025,0%,,,Winter Only Discount x 0.5
+142,false,true,4.4.16,true,Wye,false,Not Applicable,1,1,false,false,1,true,Low,202,222,true,0,6103,0,,,,1380,0,41,0%,,,Winter Only Discount x 0.5
+143,false,true,4.4.17,true,Dee,false,Not Applicable,1,0.9,false,true,1,true,Medium,245,252,true,0,293,0,,,CRT Discount x 0.5,1438,0,228,0%,,0.9,Winter Only Discount x 0.5
+144,false,true,4.4.18,true,Anglian,false,Not Applicable,1,0.5,false,false,1,true,High,207,209,true,0,2866,0,,,,1539,0,5170,0%,,0.5,Winter Only Discount x 0.5
+145,false,true,4.4.19,true,Midlands,false,Not Applicable,0.89,1,false,true,1,true,Medium,15,37,true,0,3786,0,0.89,,CRT Discount x 0.5,1783,0,5170,0%,,,Winter Only Discount x 0.5
+146,false,false,4.4.20,false,Northumbria,true,Dee,1,1,false,false,1,true,Low,116,138,false,0,10785,1935.86,,,,1871,391,41,,,,
+147,true,false,4.4.21,true,North West,true,Earl Soham - Deben,0.9,1,true,false,1,true,High,0,0,true,8180,6.4827,607566.29,0.9,Two-part Tariff x 0.5,,2027,105,8,,,,Winter Only Discount x 0.5
+148,false,true,4.4.22,false,Southern,false,Not Applicable,1,0.5,false,true,1,false,High,322,340,false,0,3.409,0,,,CRT Discount x 0.5,2117,0,0,0%,,0.5,
+149,false,false,4.4.23,true,South West (incl Wessex),true,Great East Anglian Groundwater,0.99,1,false,false,1,false,Medium,354,358,true,0,25.6,1523.72,0.99,,,2205,908,0,,,,Winter Only Discount x 0.5
+150,false,false,4.4.24,false,Devon and Cornwall (South West),true,Great East Anglian Surface Water,1,1,false,false,1,false,Low,3,22,false,0,1004,343.36,,,,2361,157,0,,,,
+151,true,false,4.4.25,false,,false,Not Applicable,0.11,0.5,true,false,1,false,High,0,0,false,14.3185,100050,0.01,0.11,Two-part Tariff x 0.5,,2889,0,0,,,0.5,
+152,false,true,4.4.26,false,Thames,true,Dee,1,0.01,false,false,1,false,Low,127,151,false,0,100,0,,,,3032,0,0,0%,,0.01,
+153,false,false,4.4.27,true,Yorkshire,true,Lower Yorkshire Derwent,0.89,1,false,false,1,true,Medium,233,255,true,0,3637,5344.45,0.89,,,3283,7363,2498,,,,Winter Only Discount x 0.5
+154,false,false,4.4.28,false,Dee,true,Medway - Allington,1,1,false,false,1,true,Medium,93,101,false,0,99999.9,108841.31,,,,3431,62860,51913,,,,
+155,true,false,4.4.29,false,,true,Nene - Northampton,0.04,0.03,true,false,1,false,High,0,0,false,75,0.123,94043.78,0.04,Two-part Tariff x 0.5,,3574,253479,0,,,0.03,
+156,false,true,4.4.30,false,Wales,false,Not Applicable,1,0.89,false,true,1,false,Medium,298,304,false,0,1007,0,,,CRT Discount x 0.5,3825,0,0,0%,,0.89,
+157,false,false,4.4.31,true,Yorkshire,true,Ouse - Eaton Socon,1,1,false,false,1,false,Low,122,147,true,0,32100.001,3599.83,,,,5258,3417,0,,,,Winter Only Discount x 0.5
+158,false,false,4.4.32,false,Anglian,true,Ouse - Hermitage,0,1,false,false,0.5,false,High,361,361,false,0,1008,0,0,,,5519,42772,0,,0.5,,
+159,true,false,4.4.33,false,,true,Ouse - Offord,1,1,true,false,1,true,High,0,0,false,0.001,0.01,325.75,,Two-part Tariff x 0.5,,5976,531,8,,,,
+160,false,true,4.4.34,false,Wales,false,Not Applicable,1,0.99,false,true,1,false,High,103,111,false,0,1001,0,,,CRT Discount x 0.5,6244,0,0,0%,,0.99,
+161,false,false,4.4.35,true,South West (incl Wessex),true,Severn,1,1,false,false,1,true,High,2,16,true,0,100,601.63,,,,6505,2980,141,,,,Winter Only Discount x 0.5
+162,false,false,4.4.36,false,Northumbria,true,Thames,0.5,1,false,false,1,true,Medium,315,316,false,0,1.06,3495.4,0.5,,,6962,43,8,,,,
+163,true,false,4.4.37,false,,true,Thet and Little Ouse Surface Water,1,1,true,false,1,true,Low,0,0,false,2,0.01,1065300,,Two-part Tariff x 0.5,,9938,707,8,,,,
+164,false,true,4.4.38,false,North West,false,Not Applicable,1,0.9,false,false,1,false,Low,330,349,false,0,1001.999,0,,,,10431,0,0,0%,,0.9,
+165,false,false,4.4.39,true,North and South Wessex,true,Waveney Surface Water,0.5,0.5,false,false,1,false,Medium,87,107,true,0,2.654,1155.39,0.5,,,11295,73,0,,,0.5,Winter Only Discount x 0.5
+166,false,false,4.4.40,false,Thames,true,Welland - Tinwell Sluices,0.01,1,false,false,1,false,Medium,81,94,false,0,0.999,106.29,0.01,,,11801,534,0,,,,
+167,true,false,4.4.41,false,,true,Witham and Ancholme,1,1,true,false,1,true,High,0,0,false,75,14.9,32328.02,,Two-part Tariff x 0.5,,12294,543,8,,,,
+168,false,true,4.4.42,false,Wye,false,Not Applicable,1,1,false,true,1,false,Medium,99,105,false,0,1,0,,,CRT Discount x 0.5,13158,0,0,0%,,,
+169,false,false,4.4.43,true,Dee,true,Candover,0.03,0.5,true,false,1,true,Low,361,364,true,0,0.01,68.73,0.03,Two-part Tariff x 0.5,,18437,35,8,,,0.5,Winter Only Discount x 0.5
+170,false,false,4.4.44,false,Anglian,true,Dee,0.89,1,false,false,1,true,Low,74,80,false,0,101.99914,15998.22,0.89,,,19351,74,8,,,,
+171,true,false,4.4.45,false,,true,Earl Soham - Deben,1,1,true,false,1,false,Low,0,0,false,8117,1007,84877.86,,Two-part Tariff x 0.5,,20955,105,0,,,,
+172,false,true,4.4.46,false,Northumbria,false,Not Applicable,1,0.5,false,true,1,false,High,189,204,true,0,0.999,0,,,CRT Discount x 0.5,21894,0,0,0%,,0.5,Winter Only Discount x 0.5
+173,false,false,4.4.47,true,North West,true,Great East Anglian Groundwater,1,0.01,false,false,1,false,High,4,26,true,0,0.0001,17.68,,,,22808,172,0,,,0.01,Winter Only Discount x 0.5
+174,false,false,4.4.48,false,,true,Great East Anglian Surface Water,0.99,1,false,false,1,false,High,107,116,false,0,32100.0012,995025.15,0.99,,,24412,1065203,0,,,,
+175,false,true,4.4.49,false,South West (incl Wessex),false,Not Applicable,1,1,false,true,1,false,Medium,54,76,true,0,321,0,,,CRT Discount x 0.5,31621,0,0,0%,,,Winter Only Discount x 0.5
+176,true,false,4.4.50,false,,true,Lodes Granta Groundwater,1,0.03,true,true,1,false,Medium,0,0,false,9022,2.212,1018676.39,,Two-part Tariff x 0.5,CRT Discount x 0.5,33189,112,0,,,0.03,
+177,false,false,4.4.51,true,North and South Wessex,true,Lower Yorkshire Derwent,1,0.89,false,false,1,true,Low,359,359,true,0,14.3185,16007.1,,,,35940,23,8,,,0.89,Winter Only Discount x 0.5
+178,false,false,4.4.52,false,Thames,true,Medway - Allington,0.9,1,false,false,1,true,Low,294,296,false,0,99.092,33581.85,0.9,,,37550,9,8,,,,
+179,true,false,4.4.53,true,Yorkshire,true,Nene - Northampton,0.5,1,true,false,1,true,Low,0,0,true,20,20,36575.63,0.5,Two-part Tariff x 0.5,,39118,253479,8,,,,Winter Only Discount x 0.5
+180,false,true,4.4.54,false,Dee,false,Not Applicable,1,1,false,true,1,false,High,76,90,false,0,32.991,0,,,CRT Discount x 0.5,41869,0,0,0%,,,
+181,false,false,4.4.55,true,Wye,true,Ouse - Eaton Socon,1,0.99,false,false,1,false,High,154,165,true,0,15,30324.29,,,,65451,186,0,,,0.99,Winter Only Discount x 0.5
+182,false,false,4.4.56,false,Wales,true,Ouse - Hermitage,0.96,1,false,false,1,true,High,251,274,false,0,1.1,60903.96,0.96,,,68697,550,8,,,,
+183,true,false,4.4.57,false,,true,Ouse - Offord,0.5,1,true,false,1,false,High,0,0,false,2,225,229.08,0.5,Two-part Tariff x 0.5,,74390,28697,0,,,,
+184,false,true,4.4.58,false,Anglian,false,Not Applicable,1,1,false,true,1,false,Medium,124,149,false,0,0.999,0,,,CRT Discount x 0.5,77723,0,0,0%,,,
+185,false,false,4.4.59,true,Midlands,true,Severn,1,0.9,false,false,1,false,Low,108,117,false,0,852,67401.97,,,,80969,163,0,,,0.9,
+186,false,false,4.4.60,false,,true,Thames,1,0.5,false,false,1,false,Low,32,39,false,0,9402,35647.59,,,,86662,229,0,,,0.5,
+187,true,false,4.4.61,false,,true,Thet and Little Ouse Surface Water,1,1,true,false,1,false,Medium,0,0,false,145,58,179132.5,,Two-part Tariff x 0.5,,139580,3726,0,,,,
+188,false,true,4.4.62,false,Northumbria,false,Not Applicable,0.5,1,false,false,1,true,Medium,182,196,false,0,1150,0,0.5,,,146503,0,785,0%,,,
+189,false,false,4.4.63,true,Devon and Cornwall (South West),true,Waveney Surface Water,1,1,false,false,1,false,High,98,98,false,0,2748,207964,,,,158618,49346,0,,,,
+190,false,false,4.4.64,false,North West,true,Welland - Tinwell Sluices,1,0.5,false,false,1,false,Medium,308,329,false,0,747,93796.77,,,,165751,34633,0,,,0.5,
+191,true,false,4.4.65,false,,true,Witham and Ancholme,1,1,true,false,1,false,Low,0,0,false,321,0.999,27829157.66,,Two-part Tariff x 0.5,,172674,543,0,,,,
+192,false,true,4.4.66,false,Thames,false,Not Applicable,0.89,1,false,true,1,true,Low,216,240,false,0,14.3185,0,0.89,,CRT Discount x 0.5,184789,0,8,0%,,,
+193,false,false,4.4.67,true,Southern,true,Ouse - Eaton Socon,1,0.5,false,false,1,false,Low,315,336,false,0,4396,120783.75,,,,257486,186,0,,,0.5,
+194,false,false,4.4.68,false,Wye,true,Ouse - Hermitage,1,0.01,false,false,1,false,High,280,285,false,0,4999,3260.27,,,,270257,61592,0,,,0.01,
+195,true,false,4.4.69,false,,true,Ouse - Offord,1,1,true,false,1,false,High,0,0,false,3.1,1306,396.37,,Two-part Tariff x 0.5,,292651,41324,0,,,,
+196,false,true,4.4.70,false,Anglian,false,Not Applicable,0.5,1,false,true,1,true,High,3,5,false,0,1407,0,0.5,,CRT Discount x 0.5,305765,0,2498,0%,,,
+197,false,false,4.4.71,true,,true,Severn,1,0.03,false,false,1,false,Medium,225,227,false,0,2872,11043.09,,,,318536,52839,0,,,0.03,
+198,false,false,4.4.72,false,Northumbria,false,Thames,1,0.89,false,false,1,false,Medium,141,156,false,0,321,274251.96,,,,340930,0,0,,,0.89,
+199,true,false,4.4.73,false,,true,Thet and Little Ouse Surface Water,0.88,1,true,false,1,false,Low,0,0,false,5.4,8180,191.99,0.88,Two-part Tariff x 0.5,,657233,3726,0,,,,
+200,false,true,4.4.74,false,Southern,false,Not Applicable,1,1,false,false,1,false,Low,113,117,false,0,14.3185,0,,,,689830,0,0,0%,,,
+201,false,true,4.4.75,true,Wales,false,Not Applicable,1,1,false,false,1,true,Medium,356,356,true,0,5.4,0,,,,746992,0,8,0%,,,Winter Only Discount x 0.5
+202,true,false,4.4.76,true,Yorkshire,true,Nene - Northampton,1,0.99,true,true,1,true,Medium,0,0,true,75,75,129524.05,,Two-part Tariff x 0.5,CRT Discount x 0.5,780465,266153,41,,,0.99,Winter Only Discount x 0.5
+203,true,false,4.4.77,false,,true,Nene - Water Newton,1,1,true,false,1,false,Low,0,0,false,202.202,1,82321893.65,,Two-part Tariff x 0.5,,813062,1192,0,,,,
+204,true,false,4.4.78,false,,true,Ouse - Eaton Socon,1,1,true,false,1,false,Low,0,0,false,0,0.999,0,,Two-part Tariff x 0.5,,870224,186,0,,,,
+205,true,false,4.4.79,false,,true,Ouse - Hermitage,1,1,true,false,1,false,Low,0,0,false,0.001,0.009,186993.22,,Two-part Tariff x 0.5,,3365328,550,0,,,,
+206,true,false,4.4.80,false,,true,Ouse - Offord,1,0.9,true,false,1,false,Medium,0,0,false,0.001,99.092,16.07,,Two-part Tariff x 0.5,,3532239,6345,0,,,0.9,
+207,true,false,4.4.81,false,,true,Rhee Groundwater,1,0.5,true,false,1,false,Low,0,0,false,40,254,150593.35,,Two-part Tariff x 0.5,,3824834,237,0,,,0.5,
+208,true,false,4.4.82,false,,true,Severn,0.03,1,true,false,1,false,Medium,0,0,false,1.1,5,13188.43,,Two-part Tariff x 0.5,,3996330,163,0,,,,
+209,true,false,4.4.83,true,North West,true,Thames,1,1,true,false,1,true,High,0,0,true,404.404,5554,76409.84,,Two-part Tariff x 0.5,,4163241,29176,5170,,,,Winter Only Discount x 0.5
+210,true,false,4.4.84,true,North and South Wessex,true,Thet and Little Ouse Surface Water,1,1,true,false,1,true,Medium,0,0,true,2,99999999,0.02,,Two-part Tariff x 0.5,,4455836,107592,265816,,,,Winter Only Discount x 0.5
+211,true,false,4.5.1,true,Thames,true,Waveney Groundwater,1,0.5,true,true,1,true,Low,0,0,true,0.009,0.1,1.01,,Two-part Tariff x 0.5,CRT Discount x 0.5,97,74,8,,,0.5,Winter Only Discount x 0.5
+212,false,true,4.5.2,true,Southern,false,Not Applicable,1,1,false,true,1,true,High,300,307,true,0,888,0,,,CRT Discount x 0.5,102,0,1456,0%,,,Winter Only Discount x 0.5
+213,false,true,4.5.3,true,Wye,false,Not Applicable,1,1,false,true,1,true,Low,202,222,true,0,925,0,,,CRT Discount x 0.5,110,0,8,0%,,,Winter Only Discount x 0.5
+214,false,true,4.5.4,true,Dee,false,Not Applicable,0.01,0.5,false,true,1,true,Medium,245,252,true,0,4587,0,,,CRT Discount x 0.5,115,0,5170,0%,,0.5,Winter Only Discount x 0.5
+215,false,true,4.5.5,true,Anglian,true,Wye,1,0.01,false,true,1,true,High,207,209,true,0,88858887,0,,,CRT Discount x 0.5,120,0,265816,0%,,0.01,Winter Only Discount x 0.5
+216,false,true,4.5.6,true,Midlands,false,Not Applicable,0.88,1,false,true,1,true,Medium,15,37,true,0,9998,0,,,CRT Discount x 0.5,128,0,5170,0%,,,Winter Only Discount x 0.5
+217,false,false,4.5.7,true,Northumbria,false,Not Applicable,1,1,true,false,1,true,Low,116,138,true,0,10785,116.42,,Two-part Tariff x 0.5,,513,0,41,,,,Winter Only Discount x 0.5
+218,true,false,4.5.8,true,North West,true,Earl Soham - Deben,0.9,0.03,true,false,1,true,High,0,0,true,3580,25.6,1067.6,,Two-part Tariff x 0.5,,538,552,41,,,0.03,Winter Only Discount x 0.5
+219,false,true,4.5.9,false,Southern,false,Not Applicable,1,0.89,false,false,1,false,High,322,340,false,0,1004,0,,,,588,0,0,0%,,0.89,
+220,false,false,4.5.10,false,South West (incl Wessex),true,Great East Anglian Groundwater,1,1,true,false,1,false,Medium,354,358,false,0,3637,27979.35,,Two-part Tariff x 0.5,,609,55982,0,,,,
+221,false,false,4.5.11,true,,true,Great East Anglian Surface Water,1,1,true,false,1,false,Low,3,22,false,0,99999.9,623.11,,Two-part Tariff x 0.5,,634,8505,0,,,,
+222,true,false,4.5.12,false,,true,Kielder,0.5,1,true,false,1,false,High,0,0,false,3744,32100.001,310207.39,,Two-part Tariff x 0.5,,684,10637839,0,,,,
+223,false,true,4.5.13,false,Thames,false,Not Applicable,1,0.99,false,true,1,false,Low,127,151,false,0,1008,0,,,CRT Discount x 0.5,1162,0,0,0%,,0.99,
+224,false,false,4.5.14,false,Yorkshire,true,Lower Yorkshire Derwent,1,1,false,false,1,false,Medium,233,255,false,0,100,1362.36,,,,1220,271,0,,,,
+225,false,false,4.5.15,true,Dee,true,Medway - Allington,1,1,false,false,1,true,Medium,93,101,true,0,1.06,616.01,,,,1321,9,8,,,,Winter Only Discount x 0.5
+226,true,false,4.5.16,false,,true,Nene - Northampton,0.88,1,true,false,1,false,High,0,0,false,52,124,57104.97,,Two-part Tariff x 0.5,,1380,308105,0,,,,
+227,false,true,4.5.17,false,Wales,false,Not Applicable,1,0.9,false,true,1,false,Medium,298,304,false,0,0.999,0,,,CRT Discount x 0.5,1438,0,0,0%,,0.9,
+228,false,false,4.5.18,false,Yorkshire,true,Ouse - Eaton Socon,0.2,0.5,false,false,1,false,Low,122,147,false,0,0.01,143.16,,,,1539,186,0,,,0.5,
+229,false,false,4.5.19,true,Anglian,true,Ouse - Hermitage,1,1,false,false,1,true,High,361,361,true,0,101.99914,5999.5,,,,1783,10075,141,,,,Winter Only Discount x 0.5
+230,true,false,4.5.20,false,,true,Ouse - Offord,1,1,true,false,1,false,High,0,0,false,1,1,1201,,Two-part Tariff x 0.5,,1871,531,0,,,,
+231,false,true,4.5.21,false,Wales,false,Not Applicable,0.4,1,false,false,1,false,High,103,111,false,0,32100.0012,0,,,,2027,0,0,0%,,,
+232,false,false,4.5.22,false,South West (incl Wessex),true,Severn,0.5,0.5,false,false,1,false,High,2,16,false,0,14.3185,71.25,,,,2117,163,0,,,0.5,
+233,false,false,4.5.23,true,Northumbria,false,Thames,1,1,true,false,1,false,Medium,315,316,true,0,99.092,549.51,,Two-part Tariff x 0.5,,2205,0,0,,,,Winter Only Discount x 0.5
+234,true,false,4.5.24,false,,true,Thet and Little Ouse Surface Water,1,1,true,false,1,false,Low,0,0,false,2.212,19,178.59,,Two-part Tariff x 0.5,,2361,707,0,,,,
+235,false,true,4.5.25,false,North West,false,Not Applicable,1,0.5,false,false,1,false,Low,330,349,true,0,1.1,0,,,,2889,0,0,0%,,0.5,Winter Only Discount x 0.5
+236,false,false,4.5.26,false,North and South Wessex,true,Waveney Surface Water,0.9,0.01,false,false,1,false,Medium,87,107,false,0,852,77.01,,,,3032,7492,0,,,0.01,
+237,false,false,4.5.27,true,Thames,true,Welland - Tinwell Sluices,1,1,false,false,1,true,Medium,81,94,true,0,9402,29426.7,,,,3283,59846,5170,,,,Winter Only Discount x 0.5
+238,true,false,4.5.28,false,,true,Witham and Ancholme,1,1,true,false,1,false,High,0,0,false,0.009,2748,0.6,,Two-part Tariff x 0.5,,3431,365007,0,,,,
+239,false,true,4.5.29,false,Wye,false,Not Applicable,0.1,0.03,false,true,1,false,Medium,99,105,true,0,747,0,,,CRT Discount x 0.5,3574,0,0,0%,,0.03,Winter Only Discount x 0.5
+240,false,false,4.5.30,false,Dee,true,Candover,1,0.89,false,false,1,false,Low,361,364,false,0,4396,3407.09,,,,3825,35,0,,,0.89,
+241,false,false,4.5.31,true,Anglian,true,Dee,1,1,false,false,1,true,Low,74,80,true,0,4999,2469.75,,,,5258,74,8,,,,Winter Only Discount x 0.5
+242,true,false,4.5.32,false,,true,Earl Soham - Deben,1,1,true,true,1,false,Low,0,0,false,32.991,2872,16.15,,Two-part Tariff x 0.5,CRT Discount x 0.5,5519,105,0,,,,
+243,false,true,4.5.33,false,Northumbria,false,Not Applicable,1,1,false,true,1,false,High,189,204,false,0,321,0,,,CRT Discount x 0.5,5976,0,0,0%,,,
+244,false,false,4.5.34,false,,false,Great East Anglian Groundwater,1,0.99,false,false,1,false,High,4,26,false,0,10785,951.01,,,,6244,0,0,,,0.99,
+245,false,false,4.5.35,true,Southern,true,Great East Anglian Surface Water,1,1,false,false,1,true,High,107,116,true,0,25.6,3401.4,,,,6505,829,41,,,,Winter Only Discount x 0.5
+246,false,true,4.5.36,false,South West (incl Wessex),false,Not Applicable,0.89,1,false,true,1,false,Medium,54,76,false,0,1004,0,,,CRT Discount x 0.5,6962,0,0,0%,,,
+247,true,false,4.5.37,false,,true,Lodes Granta Groundwater,1,1,true,false,1,false,Medium,0,0,false,0.001,3637,0.01,,Two-part Tariff x 0.5,,9938,36393,0,,,,
+248,false,false,4.5.38,false,North and South Wessex,true,Lower Yorkshire Derwent,0.9,0.9,false,false,1,false,Low,359,359,false,0,99999.9,9440.55,,,,10431,1224,0,,,0.9,
+249,false,true,4.5.39,true,Wales,false,Not Applicable,1,0.5,false,true,1,true,Medium,356,356,true,0,32100.001,0,,,CRT Discount x 0.5,11295,0,20338,0%,,0.5,Winter Only Discount x 0.5
+250,true,false,4.5.40,true,Yorkshire,true,Nene - Northampton,0.99,1,true,false,1,true,Medium,0,0,true,1.1,1008,95.14,,Two-part Tariff x 0.5,,11801,339686,785,,,,Winter Only Discount x 0.5
+251,true,false,4.5.41,false,,true,Nene - Water Newton,1,1,true,false,1,false,Low,0,0,false,404.404,100,27268.96,,Two-part Tariff x 0.5,,12294,1192,0,,,,
+252,true,false,4.5.42,false,,true,Ouse - Eaton Socon,0.11,1,true,false,1,false,Low,0,0,false,2,1.06,1384.75,,Two-part Tariff x 0.5,,13158,186,0,,,,
+253,true,false,4.5.43,false,,true,Ouse - Hermitage,1,0.5,true,false,1,false,Low,0,0,false,0.009,2.654,16.1,,Two-part Tariff x 0.5,,18437,550,0,,,0.5,
+254,true,false,4.5.44,false,,true,Ouse - Offord,0.89,1,true,true,1,false,Medium,0,0,false,1,0.999,4428.17,,Two-part Tariff x 0.5,CRT Discount x 0.5,19351,531,0,,,,
+255,true,false,4.5.45,false,,false,Not Applicable,1,1,true,false,1,false,Low,0,0,false,0.999,0.01,1046702.25,,Two-part Tariff x 0.5,,20955,0,0,,,,
+256,true,false,4.5.46,false,,true,Severn,0.04,0.5,true,false,1,false,Medium,0,0,false,75,101.99914,175.27,,Two-part Tariff x 0.5,,21894,1943,0,,,0.5,
+257,true,false,4.5.47,true,North West,true,Thames,1,0.01,true,false,1,true,High,0,0,true,4193,0.0001,2396194675,,Two-part Tariff x 0.5,,22808,43,8,,,0.01,Winter Only Discount x 0.5
+258,true,false,4.5.48,true,North and South Wessex,true,Thet and Little Ouse Surface Water,1,1,true,false,1,true,Medium,0,0,true,7273,32100.0012,6766.95,,Two-part Tariff x 0.5,,24412,74716,20338,,,,Winter Only Discount x 0.5
+259,true,false,4.5.49,true,Thames,true,Waveney Groundwater,0,1,true,false,1,true,Low,0,0,true,6170,14.3185,0,,Two-part Tariff x 0.5,,31621,74,8,,,,Winter Only Discount x 0.5
+260,false,true,4.5.50,true,Southern,false,Not Applicable,1,0.03,false,true,1,true,High,300,307,true,0,99.092,0,,,CRT Discount x 0.5,33189,0,141,0%,,0.03,Winter Only Discount x 0.5
+261,false,true,4.5.51,true,Wye,false,Not Applicable,1,0.89,false,false,1,true,Low,202,222,true,0,254,0,,,,35940,0,8,0%,,0.89,Winter Only Discount x 0.5
+262,false,true,4.5.52,true,Dee,false,Not Applicable,1,1,false,true,1,true,Medium,245,252,true,0,1.1,0,,,CRT Discount x 0.5,37550,0,8,0%,,,Winter Only Discount x 0.5
+263,false,true,4.5.53,true,Anglian,false,Not Applicable,0.5,1,false,true,1,true,High,207,209,true,0,852,0,,,CRT Discount x 0.5,39118,0,1456,0%,,,Winter Only Discount x 0.5
+264,false,true,4.5.54,true,Midlands,false,Not Applicable,1,1,false,false,1,true,Medium,15,37,true,0,9402,0,,,,41869,0,5170,0%,,,Winter Only Discount x 0.5
+265,false,false,4.5.55,true,Northumbria,true,Dee,1,0.99,false,false,1,true,Low,116,138,true,0,2748,27267.43,,,,65451,74,8,,,0.99,Winter Only Discount x 0.5
+266,true,false,4.5.56,true,North West,true,Earl Soham - Deben,0.5,1,true,true,1,true,High,0,0,true,7523,747,50466.79,,Two-part Tariff x 0.5,CRT Discount x 0.5,68697,10696,785,,,,Winter Only Discount x 0.5
+267,false,true,4.5.57,false,Southern,false,Not Applicable,0.01,1,false,true,1,false,High,322,340,false,0,4396,0,,,CRT Discount x 0.5,74390,0,0,0%,,,
+268,false,false,4.5.58,false,South West (incl Wessex),true,Great East Anglian Groundwater,1,1,false,false,1,false,Medium,354,358,false,0,4999,191434.89,,,,77723,115875,0,,,,
+269,false,false,4.5.59,false,Devon and Cornwall (South West),false,Not Applicable,1,0.9,false,false,1,false,Low,3,22,false,0,2872,9937.1,,,,80969,0,0,,,0.9,
+270,true,false,4.5.60,false,,true,Kielder,0.03,0.5,true,false,1,false,High,0,0,false,8180,321,32828.37,,Two-part Tariff x 0.5,,86662,85105,0,,,0.5,
+271,false,true,4.5.61,false,Thames,false,Not Applicable,0.89,1,false,true,1,false,Low,127,151,false,0,887,0,,,CRT Discount x 0.5,139580,0,0,0%,,,
+272,false,false,4.5.62,false,Yorkshire,false,Lower Yorkshire Derwent,1,1,false,false,1,false,Medium,233,255,false,0,321,133863.53,,,,146503,0,0,,,,
+273,false,false,4.5.63,true,Dee,true,Medway - Allington,1,1,true,false,1,true,Medium,93,101,true,0,10785,39144.71,,Two-part Tariff x 0.5,,158618,6260,5170,,,,Winter Only Discount x 0.5
+274,true,false,4.5.64,false,,true,Nene - Northampton,1,0.5,true,false,1,false,High,0,0,false,14.3185,3637,550.16,,Two-part Tariff x 0.5,,165751,393229,0,,,0.5,
+275,false,true,4.5.65,false,Wales,false,Not Applicable,0.99,1,false,true,1,false,Medium,298,304,false,0,99999.9,0,,,CRT Discount x 0.5,172674,0,0,0%,,,
+276,false,false,4.5.66,false,,true,Ouse - Eaton Socon,1,1,true,false,1,false,Low,122,147,false,0,100,76758.33,,Two-part Tariff x 0.5,,184789,186,0,,,,
+277,false,false,4.5.67,true,Anglian,true,Ouse - Hermitage,1,0.5,false,true,1,false,High,361,361,true,0,1.06,32254.5,,,CRT Discount x 0.5,257486,550,0,,,0.5,Winter Only Discount x 0.5
+278,true,false,4.5.68,false,,true,Ouse - Offord,1,0.01,true,false,1,false,High,0,0,false,75,0.01,10154550,,Two-part Tariff x 0.5,,270257,531,0,,,0.01,
+279,false,true,4.5.69,false,Wales,false,Not Applicable,0.9,1,false,true,1,false,High,103,111,true,0,101.99914,0,,,CRT Discount x 0.5,292651,0,0,0%,,,Winter Only Discount x 0.5
+280,false,false,4.5.70,false,South West (incl Wessex),true,Severn,0.5,1,false,false,1,false,High,2,16,false,0,14.3185,19120.5,,,,305765,163,0,,,,
+281,false,false,4.5.71,true,Northumbria,false,Not Applicable,1,0.03,false,false,1,true,Medium,315,316,true,0,99.092,4764.3,,,,318536,0,92,,,0.03,Winter Only Discount x 0.5
+282,true,false,4.5.72,false,,true,Thet and Little Ouse Surface Water,1,0.89,true,false,1,false,Low,0,0,false,0.001,852,0.18,,Two-part Tariff x 0.5,,340930,707,0,,,0.89,
+283,false,true,4.5.73,false,North West,false,Not Applicable,0.96,1,false,true,1,false,Low,330,349,true,0,9402,0,,,CRT Discount x 0.5,657233,0,0,0%,,,Winter Only Discount x 0.5
+284,false,false,4.5.74,false,North and South Wessex,true,Waveney Surface Water,0.5,1,true,false,1,false,Medium,87,107,false,0,4396,150253.07,,Two-part Tariff x 0.5,,689830,49346,0,,,,
+285,false,false,4.5.75,true,Thames,true,Welland - Tinwell Sluices,1,1,false,false,1,true,Medium,81,94,true,0,4999,349854.51,,,,746992,59846,5170,,,,Winter Only Discount x 0.5
+286,true,false,4.5.76,false,,true,Witham and Ancholme,1,0.99,true,false,1,false,High,0,0,false,2,10785,203.48,,Two-part Tariff x 0.5,,780465,1436250,0,,,0.99,
+287,false,true,4.5.77,false,Wye,false,Not Applicable,1,1,false,true,1,false,Medium,99,105,true,0,25.6,0,,,CRT Discount x 0.5,813062,0,0,0%,,,Winter Only Discount x 0.5
+288,false,false,4.5.78,false,,true,Candover,1,1,false,true,1,false,Low,361,364,false,0,99999.9,432463.12,,,CRT Discount x 0.5,870224,1890,0,,,,
+289,false,false,4.5.79,true,Anglian,true,Dee,0.5,1,false,false,1,true,Low,74,80,true,0,2748,778251.06,,,,3365328,74,8,,,,Winter Only Discount x 0.5
+290,true,false,4.5.80,false,,true,Earl Soham - Deben,1,0.9,true,true,1,false,Low,0,0,false,75,4999,11924.05,,Two-part Tariff x 0.5,CRT Discount x 0.5,3532239,105,0,,,0.9,
+291,false,true,4.5.81,false,Northumbria,false,Not Applicable,1,0.5,false,true,1,false,High,189,204,false,0,2872,0,,,CRT Discount x 0.5,3824834,0,0,0%,,0.5,
+292,false,false,4.5.82,false,North West,true,Great East Anglian Groundwater,1,1,false,false,1,false,High,4,26,false,0,10785,686127.69,,,,3996330,463500,0,,,,
+293,false,false,4.5.83,true,Southern,true,Great East Anglian Surface Water,0.89,1,false,false,1,true,High,107,116,true,0,6.4827,1708970.49,,,,4163241,157,8,,,,Winter Only Discount x 0.5
+294,false,true,4.5.84,false,South West (incl Wessex),false,Not Applicable,1,1,false,false,1,false,Medium,54,76,false,0,3.409,0,,,,4455836,0,0,0%,,,
+295,true,false,4.6.1,false,,true,Lodes Granta Groundwater,1,0.5,true,true,1,false,Medium,0,0,false,9739,25.6,32669.4,,Two-part Tariff x 0.5,CRT Discount x 0.5,97,590,0,,,0.5,
+296,false,false,4.6.2,false,North and South Wessex,false,Lower Yorkshire Derwent,1,1,false,true,1,false,Low,359,359,false,0,1004,51,,,CRT Discount x 0.5,102,0,0,,,,
+297,false,true,4.6.3,true,Wales,false,Not Applicable,0.5,1,false,true,1,true,Medium,356,356,true,0,100050,0,,,CRT Discount x 0.5,110,0,51913,0%,,,Winter Only Discount x 0.5
+298,true,false,4.6.4,true,Yorkshire,true,Nene - Northampton,1,0.5,true,false,1,true,Medium,0,0,true,2962,100,1035467.07,,Two-part Tariff x 0.5,,115,279460,92,,,0.5,Winter Only Discount x 0.5
+299,true,false,4.6.5,false,,false,Not Applicable,1,0.01,true,false,1,false,Low,0,0,false,4631,3637,0.76,,Two-part Tariff x 0.5,,120,0,0,,,0.01,
+300,true,false,4.6.6,false,,true,Ouse - Eaton Socon,0.88,1,true,false,1,false,Low,0,0,false,7203,99999.9,323.33,,Two-part Tariff x 0.5,,128,10074,0,,,,
+301,true,false,4.6.7,false,,true,Ouse - Hermitage,1,1,true,false,1,false,Low,0,0,false,5323,0.123,23001418.7,,Two-part Tariff x 0.5,,513,550,0,,,,
+302,true,false,4.6.8,false,,true,Ouse - Offord,1,0.03,true,true,1,false,Medium,0,0,false,332,1007,86.48,,Two-part Tariff x 0.5,CRT Discount x 0.5,538,34436,0,,,0.03,
+303,true,false,4.6.9,false,,true,Rhee Groundwater,1,0.89,true,false,1,false,Low,0,0,false,321,32100.001,21.93,,Two-part Tariff x 0.5,,588,4340,0,,,0.89,
+304,true,false,4.6.10,false,,false,Not Applicable,1,1,true,false,1,false,Medium,0,0,false,2.212,1008,0.67,,Two-part Tariff x 0.5,,609,0,0,,,,
+305,true,false,4.6.11,true,North West,true,Thames,1,1,true,false,1,true,High,0,0,true,0.999,0.01,17107.88,,Two-part Tariff x 0.5,,634,43,8,,,,Winter Only Discount x 0.5
+306,true,false,4.6.12,true,North and South Wessex,true,Thet and Little Ouse Surface Water,1,1,true,false,1,true,Medium,0,0,true,8180,1001,64344.98,,Two-part Tariff x 0.5,,684,30027,785,,,,Winter Only Discount x 0.5
+307,true,false,4.6.13,true,Thames,true,Waveney Groundwater,1,0.99,true,false,1,true,Low,0,0,true,3.1,100,9.54,,Two-part Tariff x 0.5,,1162,74,8,,,0.99,Winter Only Discount x 0.5
+308,false,true,4.6.14,true,Southern,false,Not Applicable,1,1,false,false,1,true,High,300,307,true,0,1.06,0,,,,1220,0,8,0%,,,Winter Only Discount x 0.5
+309,false,true,4.6.15,true,Wye,false,Not Applicable,0.03,1,false,true,1,true,Low,202,222,true,0,0.01,0,,,CRT Discount x 0.5,1321,0,8,0%,,,Winter Only Discount x 0.5
+310,false,true,4.6.16,true,Dee,false,Not Applicable,1,1,false,true,1,true,Medium,245,252,true,0,1001.999,0,,,CRT Discount x 0.5,1380,0,785,0%,,,Winter Only Discount x 0.5
+311,false,true,4.6.17,true,Anglian,false,Not Applicable,1,0.9,false,true,1,true,High,207,209,true,0,2.654,0,,,CRT Discount x 0.5,1438,0,8,0%,,0.9,Winter Only Discount x 0.5
+312,false,true,4.6.18,true,Midlands,false,Not Applicable,1,0.5,false,false,1,true,Medium,15,37,true,0,0.999,0,,,,1539,0,8,0%,,0.5,Winter Only Discount x 0.5
+313,false,false,4.6.19,true,Northumbria,true,Dee,1,1,false,false,1,true,Low,116,138,true,0,2259,783.84,,,,1783,74,8,,,,Winter Only Discount x 0.5
+314,true,false,4.6.20,true,North West,true,Earl Soham - Deben,1,1,true,true,1,true,High,0,0,true,75,1,18600,,Two-part Tariff x 0.5,CRT Discount x 0.5,1871,105,8,,,,Winter Only Discount x 0.5
+315,false,true,4.6.21,false,Southern,false,Not Applicable,0.01,1,false,false,1,false,High,322,340,false,0,0.01,0,,,,2027,0,0,0%,,,
+316,false,false,4.6.22,false,South West (incl Wessex),true,Great East Anglian Groundwater,1,0.5,true,false,1,false,Medium,354,358,false,0,101.99914,1032.09,,Two-part Tariff x 0.5,,2117,2058,0,,,0.5,
+317,false,false,4.6.23,false,,false,Not Applicable,0.88,1,false,false,1,false,Low,3,22,false,0,1007,264.6,,,,2205,0,0,,,,
+318,true,false,4.6.24,false,,true,Kielder,1,1,true,false,1,false,High,0,0,false,0.001,0.999,1.97,,Two-part Tariff x 0.5,,2361,1575,0,,,,
+319,false,true,4.6.25,false,Thames,false,Not Applicable,0.9,0.5,false,true,1,false,Low,127,151,false,0,0.0001,0,,,CRT Discount x 0.5,2889,0,0,0%,,0.5,
+320,false,false,4.6.26,false,Yorkshire,true,Lower Yorkshire Derwent,1,0.01,false,false,1,false,Medium,233,255,false,0,32100.0012,575.56,,,,3032,59958,0,,,0.01,
+321,false,false,4.6.27,true,Dee,true,Medway - Allington,1,1,false,false,1,true,Medium,93,101,true,0,321,1743.52,,,,3283,276,228,,,,Winter Only Discount x 0.5
+322,true,false,4.6.28,false,,true,Nene - Northampton,1,1,true,false,1,false,High,0,0,false,2,2.212,116143.76,,Two-part Tariff x 0.5,,3431,253479,0,,,,
+323,false,true,4.6.29,false,Wales,false,Not Applicable,0.5,0.03,false,true,1,false,Medium,298,304,false,0,14.3185,0,,,CRT Discount x 0.5,3574,0,0,0%,,0.03,
+324,false,false,4.6.30,false,Yorkshire,true,Ouse - Eaton Socon,1,0.89,false,false,1,false,Low,122,147,false,0,99.092,2962.68,,,,3825,186,0,,,0.89,
+325,false,false,4.6.31,true,Anglian,true,Ouse - Hermitage,1,1,false,false,1,false,High,361,361,true,0,0.009,2904,,,,5258,550,0,,,,Winter Only Discount x 0.5
+326,true,false,4.6.32,false,,true,Ouse - Offord,1,1,true,false,1,false,High,0,0,false,75,32.991,9454.85,,Two-part Tariff x 0.5,,5519,2799,0,,,,
+327,false,true,4.6.33,false,Wales,false,Not Applicable,0.88,1,false,true,1,false,High,103,111,false,0,12,0,,,CRT Discount x 0.5,5976,0,0,0%,,,
+328,false,false,4.6.34,false,South West (incl Wessex),true,Severn,1,0.99,true,false,1,false,High,2,16,false,0,1.1,396.43,,Two-part Tariff x 0.5,,6244,163,0,,,0.99,
+329,false,false,4.6.35,true,Northumbria,true,Thames,0.2,1,false,true,1,true,Medium,315,316,true,0,1,326.76,,,CRT Discount x 0.5,6505,43,8,,,,Winter Only Discount x 0.5
+330,true,false,4.6.36,false,,true,Thet and Little Ouse Surface Water,1,1,true,false,1,false,Low,0,0,false,0,0.999,0,,Two-part Tariff x 0.5,,6962,707,0,,,,
+331,false,true,4.6.37,false,North West,false,Not Applicable,0.5,1,false,false,1,false,Low,330,349,false,0,852,0,,,,9938,0,0,0%,,,
+332,false,false,4.6.38,false,North and South Wessex,true,Waveney Surface Water,1,0.9,false,false,1,false,Medium,87,107,false,0,9402,43743.36,,,,10431,49346,0,,,0.9,
+333,false,false,4.6.39,true,Thames,true,Welland - Tinwell Sluices,1,0.5,false,false,1,true,Medium,81,94,true,0,58,3048.49,,,,11295,2815,41,,,0.5,Winter Only Discount x 0.5
+334,true,false,4.6.40,false,,true,Witham and Ancholme,1,1,true,false,1,false,High,0,0,false,0,1150,0,,Two-part Tariff x 0.5,,11801,102812,0,,,,
+335,false,true,4.6.41,false,Wye,false,Not Applicable,0.9,1,false,true,1,false,Medium,99,105,false,0,2748,0,,,CRT Discount x 0.5,12294,0,0,0%,,,
+336,false,false,4.6.42,false,Dee,true,Candover,1,1,true,true,1,false,Low,361,364,false,0,747,3271.07,,Two-part Tariff x 0.5,CRT Discount x 0.5,13158,35,0,,,,
+337,false,false,4.6.43,true,Anglian,true,Dee,1,0.5,false,false,1,true,Low,74,80,true,0,0.999,4282.52,,,,18437,74,8,,,0.5,Winter Only Discount x 0.5
+338,true,false,4.6.44,false,,true,Earl Soham - Deben,0.1,1,true,false,1,false,Low,0,0,false,4675,14.3185,317619.86,,Two-part Tariff x 0.5,,19351,105,0,,,,
+339,false,true,4.6.45,false,Northumbria,false,Not Applicable,1,1,false,true,1,false,High,189,204,false,0,4396,0,,,CRT Discount x 0.5,20955,0,0,0%,,,
+340,false,false,4.6.46,false,North West,true,Great East Anglian Groundwater,1,0.5,false,false,1,false,High,4,26,false,0,4999,10597.62,,,,21894,115875,0,,,0.5,
+341,false,false,4.6.47,true,Southern,true,Great East Anglian Surface Water,1,0.01,false,false,1,true,High,107,116,true,0,1306,249.45,,,,22808,29823,1456,,,0.01,Winter Only Discount x 0.5
+342,false,true,4.6.48,false,South West (incl Wessex),false,Not Applicable,1,1,false,false,1,false,Medium,54,76,false,0,1407,0,,,,24412,0,0,0%,,,
+343,true,false,4.6.49,false,,true,Lodes Granta Groundwater,1,1,true,false,1,false,Medium,0,0,false,2.212,2872,26.19,,Two-part Tariff x 0.5,,31621,36393,0,,,,
+344,false,false,4.6.50,false,,false,Lower Yorkshire Derwent,1,0.03,false,false,1,false,Low,359,359,false,0,321,995.67,,,,33189,0,0,,,0.03,
+345,false,true,4.6.51,true,Wales,false,Not Applicable,0.89,0.89,false,true,1,true,Medium,356,356,true,0,8180,0,,,CRT Discount x 0.5,35940,0,5170,0%,,0.89,Winter Only Discount x 0.5
+346,true,false,4.6.52,true,Yorkshire,true,Nene - Northampton,1,1,true,false,1,true,Medium,0,0,true,3.1,14.3185,15752.61,,Two-part Tariff x 0.5,,37550,253479,8,,,,Winter Only Discount x 0.5
+347,true,false,4.6.53,false,,true,Nene - Water Newton,0.9,1,true,true,1,false,Low,0,0,false,0.009,5.4,15.12,,Two-part Tariff x 0.5,CRT Discount x 0.5,39118,1192,0,,,,
+348,true,false,4.6.54,false,,true,Ouse - Eaton Socon,1,1,true,true,1,false,Low,0,0,false,100.2,75,14046.37,,Two-part Tariff x 0.5,CRT Discount x 0.5,41869,186,0,,,,
+349,true,false,4.6.55,false,,true,Ouse - Hermitage,0.99,0.99,true,true,1,false,Low,0,0,false,244,2421,1629.88,,Two-part Tariff x 0.5,CRT Discount x 0.5,65451,550,0,,,0.99,
+350,true,false,4.6.56,false,,true,Ouse - Offord,1,1,true,false,1,false,Medium,0,0,false,5.4,0.999,187102.7,,Two-part Tariff x 0.5,,68697,531,0,,,,
+351,true,false,4.6.57,false,,true,Rhee Groundwater,0.11,1,true,false,1,false,Low,0,0,false,32.991,0.009,15045673.85,,Two-part Tariff x 0.5,,74390,237,0,,,,
+352,true,false,4.6.58,false,,true,Severn,1,1,true,false,1,false,Medium,0,0,false,99.092,99.092,39833,,Two-part Tariff x 0.5,,77723,1943,0,,,,
+353,true,false,4.6.59,true,North West,true,Thames,0.89,0.9,true,false,1,true,High,0,0,true,75,10785,300.97,,Two-part Tariff x 0.5,,80969,114822,20338,,,0.9,Winter Only Discount x 0.5
+354,true,false,4.6.60,true,North and South Wessex,true,Thet and Little Ouse Surface Water,1,0.5,true,false,1,true,Medium,0,0,true,202.202,25.6,89281.86,,Two-part Tariff x 0.5,,86662,3726,41,,,0.5,Winter Only Discount x 0.5
+355,true,false,4.6.61,true,Thames,true,Waveney Groundwater,0.04,1,true,false,1,true,Low,0,0,true,0,1004,0,,Two-part Tariff x 0.5,,139580,74,8,,,,Winter Only Discount x 0.5
+356,false,true,4.6.62,true,Southern,false,Not Applicable,1,1,false,false,1,true,High,300,307,true,0,3637,0,,,,146503,0,5170,0%,,,Winter Only Discount x 0.5
+357,false,true,4.6.63,true,Wye,false,Not Applicable,1,1,false,false,1,true,Low,202,222,true,0,99999.9,0,,,,158618,0,415,0%,,,Winter Only Discount x 0.5
+358,false,true,4.6.64,true,Dee,false,Not Applicable,0,0.5,false,false,1,true,Medium,245,252,true,0,32100.001,0,,,,165751,0,20338,0%,,0.5,Winter Only Discount x 0.5
+359,false,true,4.6.65,true,Anglian,false,Not Applicable,1,1,false,true,1,true,High,207,209,true,0,1008,0,,,CRT Discount x 0.5,172674,0,1456,0%,,,Winter Only Discount x 0.5
+360,false,true,4.6.66,true,Midlands,false,Not Applicable,1,1,false,false,1,true,Medium,15,37,true,0,100,0,,,,184789,0,92,0%,,,Winter Only Discount x 0.5
+361,false,false,4.6.67,true,Northumbria,true,Dee,1,0.5,true,false,1,false,Low,116,138,true,0,1.06,27062.46,,Two-part Tariff x 0.5,,257486,74,0,,,0.5,Winter Only Discount x 0.5
+362,true,false,4.6.68,true,North West,true,Earl Soham - Deben,0.5,0.01,true,false,1,true,High,0,0,true,0.009,2.654,1.15,,Two-part Tariff x 0.5,,270257,105,8,,,0.01,Winter Only Discount x 0.5
+363,false,true,4.6.69,false,Southern,false,Not Applicable,1,1,false,true,1,false,High,322,340,false,0,0.999,0,,,CRT Discount x 0.5,292651,0,0,0%,,,
+364,false,false,4.6.70,false,South West (incl Wessex),true,Great East Anglian Groundwater,1,1,false,false,1,false,Medium,354,358,false,0,0.01,302518.71,,,,305765,172,0,,,,
+365,false,false,4.6.71,false,Devon and Cornwall (South West),true,Great East Anglian Surface Water,0.5,0.03,false,true,1,false,Low,3,22,false,0,101.99914,325.94,,,CRT Discount x 0.5,318536,157,0,,,0.03,
+366,true,false,4.6.72,false,,true,Kielder,0.01,0.89,true,false,1,false,High,0,0,false,4157,12,527990.01,,Two-part Tariff x 0.5,,340930,1575,0,,,0.89,
+367,false,true,4.6.73,false,Thames,false,Not Applicable,1,1,false,false,1,false,Low,127,151,false,0,32100.0012,0,,,,657233,0,0,0%,,,
+368,false,false,4.6.74,false,Yorkshire,true,Lower Yorkshire Derwent,1,1,false,false,1,false,Medium,233,255,false,0,14.3185,630336.27,,,,689830,23,0,,,,
+369,false,false,4.6.75,true,Dee,true,Medway - Allington,0.03,1,true,true,1,true,Medium,93,101,true,0,99.092,2580.04,,Two-part Tariff x 0.5,CRT Discount x 0.5,746992,111,92,,,,Winter Only Discount x 0.5
+370,true,false,4.6.76,false,,true,Nene - Northampton,0.89,0.99,true,true,1,false,High,0,0,false,9402,88896,28787.78,,Two-part Tariff x 0.5,CRT Discount x 0.5,780465,455212,0,,,0.99,
+371,false,true,4.6.77,false,Wales,false,Not Applicable,1,1,false,true,1,false,Medium,298,304,false,0,1.1,0,,,CRT Discount x 0.5,813062,0,0,0%,,,
+372,false,false,4.6.78,false,Yorkshire,true,Ouse - Eaton Socon,1,1,false,false,1,false,Low,122,147,false,0,852,722381.09,,,,870224,186,0,,,,
+373,false,false,4.6.79,true,Anglian,true,Ouse - Hermitage,1,1,false,false,1,true,High,361,361,true,0,9402,1737179.5,,,,3365328,88693,20338,,,,Winter Only Discount x 0.5
+374,true,false,4.6.80,false,,true,Ouse - Offord,0.99,0.9,true,true,1,false,High,0,0,false,5953,2748,1733218.22,,Two-part Tariff x 0.5,CRT Discount x 0.5,3532239,59596,0,,,0.9,
+375,false,true,4.6.81,false,Wales,false,Not Applicable,1,0.5,false,true,1,false,High,103,111,false,0,747,0,,,CRT Discount x 0.5,3824834,0,0,0%,,0.5,
+376,false,false,4.6.82,false,South West (incl Wessex),true,Severn,1,1,false,true,1,false,High,2,16,false,0,4396,256606.19,,,CRT Discount x 0.5,3996330,109369,0,,,,
+377,false,false,4.6.83,true,Northumbria,true,Thames,1,1,false,false,1,true,Medium,315,316,true,0,4999,2092151.75,,,,4163241,29176,5170,,,,Winter Only Discount x 0.5
+378,true,false,4.6.84,false,,true,Thet and Little Ouse Surface Water,0.9,0.9,true,true,1,false,Low,0,0,false,9720,2872,3054252.64,,Two-part Tariff x 0.5,CRT Discount x 0.5,4455836,707,0,,,0.9,

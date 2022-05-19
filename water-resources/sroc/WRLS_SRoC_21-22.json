@@ -127,12 +127,12 @@
 					"raw": "{\r\n    \"WRLSChargingRequest\": {\r\n        \"secondPartCharge\": {{secondPartCharge}},\r\n        \"compensationCharge\": {{compensationCharge}},\r\n        \"chargeCategory\": \"{{chargeCategory}}\",\r\n        \"waterUndertaker\": {{waterUndertaker}},\r\n        \"regionalChargingArea\": \"{{regionalChargingArea}}\",\r\n        \"supportedSourceChargeFlag\": {{supportedSourceChargeFlag}},\r\n        \"supportedSourceName\": \"{{supportedSourceName}}\",\r\n        \"abatementAdjustment\": {{abatementAdjustment}},\r\n        \"adjustmentFactor\": {{adjustmentFactor}},\r\n        \"s127Agreement\": {{s127Agreement}},\r\n        \"s130Agreement\": {{s130Agreement}},\r\n        \"aggregateProportion\": {{aggregateProportion}},\r\n        \"waterCompanyChargeFlag\": {{waterCompanyChargeFlag}},\r\n        \"loss\": \"{{loss}}\",\r\n        \"billableDays\": {{billableDays}},\r\n        \"abstractableDays\": {{abstractableDays}},\r\n        \"winterOnly\": {{winterOnly}},\r\n        \"actualVolume\": {{actualVolume}},\r\n        \"authorisedVolume\": {{authorisedVolume}}\r\n     }\r\n}"
 				},
 				"url": {
-					"raw": "{{baseUrl}}/WRLS_SRoC_RuleApp/1.0/WRLS_SRoC_RuleSet_2021_22",
+					"raw": "{{baseUrl}}/TEST_WRLS_SRoC_RuleApp/1.0/WRLS_SRoC_RuleSet_2021_22",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						"WRLS_SRoC_RuleApp",
+						"TEST_WRLS_SRoC_RuleApp",
 						"1.0",
 						"WRLS_SRoC_RuleSet_2021_22"
 					]
